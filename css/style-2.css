@@ -1,0 +1,27 @@
+#hotmailheader{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#hotmailheaderimg img{
+	width: 100%;
+	background-color: white;
+}
+
+#email{
+}
+
+#backbtn{
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.exit{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.seven:active{
+
+}
