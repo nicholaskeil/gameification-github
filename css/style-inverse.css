@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Chicago, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: green;
+  height: 100px;
+  border: none;
+  
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 30px 55px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#main-folder-div{
+
+  top: 100px;
+}
+
+p{
+  font-size: 25px;
+}
+
+
+#hotmailimg{
+}
+
+#ex4a{
+/*APPARENTLY YOU CAN CHANGE THE MAX WIDTH SO THAT THE THING CAN BE WIDER!!!!!!!*/
+  max-width: 1000px;
+}
+
+
+
+#bottombody{
+  padding-top: 25px;
+  padding-left: 50px;
+}
+
+#ex1,#ex1a,#ex1b,#ex1c,#ex2,#ex3,#ex4{
+/*APPARENTLY YOU CAN CHANGE THE MAX WIDTH SO THAT THE THING CAN BE WIDER!!!!!!!*/
+  max-width: 1000px;
+}
+
+#ex7a{
+  max-width: 900px;
+}
+
+#ex7c{
+max-width: 675px;
+max-height: 800px;
+top: -650px;
+}
+
+.water-img{
+position: fixed;
+left: -130px;
+top: 200px;
+}
+
+@keyframes blinkingText{
+    0%{     opacity: 100%}
+    50%{     opacity: 0%}
+    100%{     opacity: 100%}
+}
+.hint-1{
+    animation: blinkingText;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
