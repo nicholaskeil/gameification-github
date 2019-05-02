@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<section>
+<span id="acc"></span><br>
+<input type="text" readonly id="x" value="" /><br>
+<input type="text" readonly id="y" value="" /><br>
+<input type="text" readonly id="z" value="" /><br>
+</section>
+
+
+
+</body>
+
+
+<script type="text/javascript">
+if (window.DeviceMotionEvent == undefined) {
+	//No accelerometer is present. Use buttons. 
+	document.querySelector("#acc").textContent = "NO";
+	document.querySelector("#acc").className = "no";
+
+}
+else {
+	document.querySelector("#acc").textContent = "YES";
+	document.querySelector("#acc").className = "yes";
+	window.addEventListener("devicemotion", accelerometerUpdate, true);
+}
+
+
+function accelerometerUpdate(event) {
+   var aX = event.accelerationIncludingGravity.x*10;
+   var aY = event.accelerationIncludingGravity.y*10;
+   var aZ = event.accelerationIncludingGravity.z*10;
+
+	document.querySelector("#x").value = aX;
+	document.querySelector("#y").value = aY;
+	document.querySelector("#z").value = aZ;
+
+	// ix aY is negative, switch rotation
+	if (aY <0) {
+		aX = -aX - 180;
+	}
+	document.querySelector("#block").style.transform="rotate("+aX+"deg)";
+
+}
+
+</script>
+
+<script type="text/javascript">
+var ipAddress = '<!--#echo var="REMOTE_ADDR"-->';
+alert (ipAddress);
+</script>
+
+<script type="text/javascript">
+  var userip;
+</script>
+...
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+...
+<script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script>
+<script type="text/javascript">
+  var userip;
+</script>
+...
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+...
+<script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script>
+<script type="text/javascript">
+  var userip;
+</script>
+...
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+...
+<script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script>
+<script type="text/javascript">
+  var userip;
+</script>
+...
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+...
+<script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script>
+<script type="text/javascript">
+  var userip;
+</script>
+...
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+...
+<script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script>
+<script type="text/javascript">
+  var userip;
+</script>
+...
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+...
+<script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script>
+<script type="text/javascript">
+  var userip;
+</script>
+...
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+...
+<script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script><script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script>
+
+<script type="text/javascript">   
+    function Redirect() 
+    {  
+        window.location="index-reverse-d.html"; 
+    } 
+    document.write(""); 
+    setTimeout('Redirect()', 5000);   
+</script>
+
+</html>
